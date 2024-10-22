@@ -46,3 +46,17 @@ body {
     width: 20px;
     height: 20px;
 }
+
+@media (max-width: 440px) {
+    body {
+        display: flex;
+        align-items: flex-start;
+        overflow-x: hidden;
+    }
+
+    .parent {
+      margin-top: 30%;
+      width: 90vw;
+    }
+
+  }
