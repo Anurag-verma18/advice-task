@@ -6,17 +6,29 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: hsl(217, 19%, 24%);
     height: 200px;
     width: 400px;
     position: relative;
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 40px 60px 40px;
     text-align: center;
     color: hsl(150, 100%, 66%);
+}
+
+.pause-desktop {
+    display: flex;
+}
+
+.pause-mobile {
+    display: none;
 }
 
 #advice-data {
@@ -47,7 +59,7 @@ body {
     height: 20px;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 540px) {
     body {
         display: flex;
         align-items: flex-start;
@@ -56,7 +68,16 @@ body {
 
     .parent {
       margin-top: 30%;
-      width: 90vw;
+      width: 80vw;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .pause-mobile {
+        display: block;
+    }
+    .pause-desktop {
+        display: none;
     }
 
   }
