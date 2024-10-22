@@ -64,6 +64,8 @@ body {
         display: flex;
         align-items: flex-start;
         overflow-x: hidden;
+        margin: 0 auto;
+        padding: 0px;
     }
 
     .parent {
