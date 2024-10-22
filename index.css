@@ -38,6 +38,10 @@ body {
     align-items: center;
 }
 
+.dice-container:hover {
+    box-shadow: 0 0 25px 2px hsl(150, 100%, 66%) ;
+}
+
 .dice-image {
     width: 20px;
     height: 20px;
