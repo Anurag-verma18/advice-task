@@ -1,0 +1,23 @@
+{
+  "name": "advice-generator-app-task-updated",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurag-verma18/active-task.git"
+  },
+  "keywords": [
+    "vanilla",
+    "js"
+  ],
+  "author": "Anurag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurag-verma18/active-task/issues"
+  },
+  "homepage": "https://github.com/Anurag-verma18/active-task#readme"
+}
