@@ -13,19 +13,27 @@ body {
 .parent {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: hsl(217, 19%, 24%);
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     position: relative;
     border-radius: 15px;
-    padding: 20px 40px 60px 40px;
+    padding: 20px 40px 50px 40px;
     text-align: center;
     color: hsl(150, 100%, 66%);
 }
 
 h5 {
     letter-spacing: 3px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
 }
 
 .pause-desktop {
