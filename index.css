@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
 }
 
 .parent {
@@ -21,6 +22,10 @@ body {
     padding: 20px 40px 60px 40px;
     text-align: center;
     color: hsl(150, 100%, 66%);
+}
+
+h5 {
+    letter-spacing: 3px;
 }
 
 .pause-desktop {
